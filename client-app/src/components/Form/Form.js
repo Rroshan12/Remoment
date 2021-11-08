@@ -17,7 +17,7 @@ function Forms({currentId,setCurrentId}) {
 
   const clear = () => {
     setCurrentId(0);
-    setActivity({ title: '', message: '', tags: '', selectedFile: '' });
+    setActivity({ title: '', description: '', city: '', venue: '', id:'', date:'' });
   };
 
   const handleSubmit = async (e) => {
