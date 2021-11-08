@@ -1,0 +1,8 @@
+.segment
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-around;
+}
